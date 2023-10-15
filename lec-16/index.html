@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* element selector */
+        div {
+            background-color: red;
+        }
+
+        /* class selector */
+
+        .red {
+            background-color: blue;
+        }
+
+        /* id selector */
+        #green {
+            background-color: green;
+        }
+
+        /* child selector  */
+        div>p {
+            color: rgb(238, 220, 231);
+            background-color: rgb(27, 41, 10);
+        }
+
+        /* discendent selector */
+        div p {
+            color: aquamarine;
+            background-color: rgb(50, 125, 191);
+        }
+
+        /* *universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* pseudo slector */
+        a:visited {
+            color: rgb(0, 0, 0);
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active {
+            background-color: rgb(234, 22, 22)
+        }
+
+        a:hover {
+            background-color: yellow;
+        }
+
+        p:first-child {
+            background-color: rgb(54, 80, 80);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="red">
+        hey i am a class div
+    </div>
+    <div>
+        i am element div
+    </div>
+
+    <div id="green">hey i am a id div
+
+    </div>
+    <div>
+        <p>
+            hey i am a child selector
+        </p>
+    </div>
+    <div>
+        <article>
+            <p>
+                hello i am disandent selector
+            </p>
+        </article>
+    </div>
+
+    <a href="https://www.youtube.com/watch?v=1cEG1T8beO4&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=17&ab_channel=CodeWithHarry"
+        target="_blank"> go to harry</a>
+    <a href="https://www.youtube.com/" target="_blank">go to youtube</a>
+    <main class="one">
+        <p> iam first</p>
+        <p> iam second</p>
+    </main>
+
+</body>
+
+</html>
